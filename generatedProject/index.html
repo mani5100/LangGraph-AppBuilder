@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'>
+    <link rel='stylesheet' href='css/styles.css'>
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <input type="text" id="display-screen" class="form-control mb-3" readonly>
+                        <div class="row">
+                            <div class="col-3"><button class="btn btn-secondary w-100 digit">7</button></div>
+                            <div class="col-3"><button class="btn btn-secondary w-100 digit">8</button></div>
+                            <div class="col-3"><button class="btn btn-secondary w-100 digit">9</button></div>
+                            <div class="col-3"><button class="btn btn-primary w-100 operator">/</button></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-3"><button class="btn btn-secondary w-100 digit">4</button></div>
+                            <div class="col-3"><button class="btn btn-secondary w-100 digit">5</button></div>
+                            <div class="col-3"><button class="btn btn-secondary w-100 digit">6</button></div>
+                            <div class="col-3"><button class="btn btn-primary w-100 operator">*</button></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-3"><button class="btn btn-secondary w-100 digit">1</button></div>
+                            <div class="col-3"><button class="btn btn-secondary w-100 digit">2</button></div>
+                            <div class="col-3"><button class="btn btn-secondary w-100 digit">3</button></div>
+                            <div class="col-3"><button class="btn btn-primary w-100 operator">-</button></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-3"><button class="btn btn-secondary w-100 digit">0</button></div>
+                            <div class="col-3"><button class="btn btn-warning w-100 clear">C</button></div>
+                            <div class="col-3"><button class="btn btn-primary w-100 operator">+</button></div>
+                            <div class="col-3"><button class="btn btn-success w-100 operator">=</button></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src='js/calculator.js'></script>
+</body>
+</html>

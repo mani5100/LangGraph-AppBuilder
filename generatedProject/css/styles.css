@@ -1,0 +1,59 @@
+/* Custom styles for display screen and buttons */
+
+/* Styling for the display screen */
+#display-screen {
+    height: 60px;
+    font-size: 1.5em;
+    text-align: right;
+    background-color: #f9f9f9;
+    color: #333;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.1);
+}
+
+/* Uniform button styling for better usability */
+button {
+    padding: 15px;
+    font-size: 1.2em;
+    margin: 5px;
+    border: none;
+    border-radius: 8px;
+    transition: transform 0.1s ease;
+}
+
+/* Button colors based on their classes */
+.digit {
+    background-color: #e0e0e0;
+    color: #333;
+}
+
+.operator {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.clear {
+    background-color: #ffc107;
+    color: #212529;
+}
+
+/* Hover effects for buttons */
+button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Responsive styling for smaller devices */
+@media (max-width: 768px) {
+    #display-screen {
+        font-size: 1.2em;
+        height: 50px;
+    }
+
+    button {
+        padding: 12px;
+        font-size: 1em;
+    }
+}
